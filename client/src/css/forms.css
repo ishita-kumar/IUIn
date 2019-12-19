@@ -1,0 +1,236 @@
+/* Forms
+.form .form-group {
+    margin: 1.2rem 0;
+  }
+  
+  .form .form-text {
+    display: block;
+    margin-top: 0.3rem;
+    color: #888;
+  }
+  
+  
+  
+  .form input[type='submit'],
+  button {
+    font: inherit;
+  }
+  
+  .form .social-input {
+    display: flex;
+  }
+  
+  .form .social-input i {
+    padding: 0.5rem;
+    width: 4rem;
+  }
+  
+  .form .social-input i.fa-twitter {
+    color: #38a1f3;
+  }
+  .form .social-input i.fa-facebook {
+    color: #3b5998;
+  }
+  .form .social-input i.fa-instagram {
+    color: #3f729b;
+  }
+  .form .social-input i.fa-youtube {
+    color: #c4302b;
+  }
+  .form .social-input i.fa-linkedin {
+    color: #0077b5;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .table th {
+    background: var(--light-color);
+  } */
+
+ 
+  
+
+.login{
+ 
+  top:150px;
+  width:380px;
+  height:350px;
+  /* background-color: (250, 128, 114, 0.4); */
+  margin:0 auto;
+  margin-left:800px;
+  border-radius:16px;
+  /* position:relative; */
+  box-shadow:0px 0px 10px #17a2b8;
+  /* border:2px solid #17a2b8; */
+
+}
+.Login-component {
+  /* The image used */
+  background-image: url(http://rockimages.r.o.pic.centerblog.net/o/9b5f1084.jpg);
+
+  /* Full height */
+  height: 100% ;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bg {
+  background-image: url("http://rockimages.r.o.pic.centerblog.net/o/9b5f1084.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  } */
+.register{
+    top:100px;
+    width:480px;
+    /* height:690px; */
+    /* background-color: rgba(250, 128, 114, 0.4); */
+    margin:0 auto;
+    margin-left: 700px;
+    margin-top: 40px;
+    border-radius:16px;
+    /* position:relative; */
+    /* box-shadow:0px 0px 5px black; */
+    border:2px solid #17a2b8;  
+  }
+  .registerevent{
+    /* top:100px; */
+    /* width:380px; */
+    /* height:690px; */
+    /* background-color: rgba(250, 128, 114, 0.4); */
+    /* margin:0 auto; */
+    /* margin-left: px; */
+    /* margin-top: 120px; */
+    border-radius:16px;
+    /* position:relative; */
+    /* box-shadow:0px 0px 5px black; */
+    border:4px solid lightblue;  
+  }
+  .register2{
+    /* top:20px; */
+    /* width:380px; */
+    height:690px;
+    /* background-color: rgba(211, 56, 39, 0.4); */
+    /* margin:0 auto; */
+    /* border-radius:16px; */
+    /* position:relative; */
+    /* box-shadow:0px 0px 5px black; */
+    /* border:2px solid #8f1111;   */
+  }
+ 
+ 
+.input1{
+  width:90px;
+  height:25px;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:50%;
+  font-size:15px;
+  background:white;
+  border: none;
+  border-radius:0px;
+  text-align:center;
+  color:grey;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.input2{
+  width:80%;
+  height:25px;
+  margin-left:10%;
+  margin-right:10%;
+  /* margin-top:5%; */
+  font-size:15px;
+  background:white;
+  border: none;
+  border-radius:5px;
+  text-align:center !important;
+  color:grey;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* .input3{ */
+  /* width:80%; */
+  /* height:25px;
+  margin-left:20%; */
+  /* margin-right:10%; */
+  /* margin-top:5%; */
+  /* font-size:15px;
+  background:white;
+  border: none;
+  border-radius:5px;
+  text-align:center;
+  color:grey;
+  font-family: 'Quicksand', sans-serif;
+} */
+/* .input3:hover{ */
+  /* background:Gainsboro; */
+/* } */
+
+.input4{
+  /* width:80%; */
+  height:25px;
+  /* margin-left:20%; */
+  margin-right:10%;
+  /* margin-top:5%; */
+  font-size:15px;
+  background:white;
+  border: none;
+  border-radius:5px;
+  text-align:center;
+  color:grey;
+  font-family: 'Quicksand', sans-serif;
+}
+.input3:hover{
+  background:Gainsboro;
+}
+
+.bouton{
+  width:50%;
+  height:35px;
+  background:#181000;
+  margin-left:10%;
+  margin-right:10%;
+  /* margin-top:10%; */
+  font-size:30px;
+  border-radius:5px;
+  text-align:center;
+  color:white;
+  line-height:32px;
+  /* font-family: 'Quicksand', sans-serif; */
+  opacity:0.8;
+}
+
+.forgot{
+  /* color:white; */
+  text-align:center;
+  top:20px;
+  /* margin:10px; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight:100;
+  font-size:12px;
+}
+.forgot:hover{
+  color:black;
+}
+
+.my-facebook-button-class{
+  background:rgb(61, 50, 219);
+  top:100px;
+  left: 100px;
+  width: 180px;
+  height: 42px;
+  bottom: auto;
+  font-size: 12px;
+  padding: 0;
+  color:white;
+  border: none;
+}

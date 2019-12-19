@@ -1,0 +1,98 @@
+.example_d {
+    color: #dc3545 !important;
+    text-transform: uppercase;
+    background:transparent;
+    padding: 10px;
+    /* border: 1px solid #dc3545 !important; */
+    border-radius: 10px;
+    background-color: white;
+    /* display: inline-block; */
+    transition: all 0.3s ease 0s;
+    margin-right: 20px;
+    /* margin-top:150px; */
+    margin-left:550px;
+    width: 100px;
+    }
+.example_d a{
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.example_q {
+    color: #dc3545 !important;
+    text-transform: uppercase;
+    background:transparent;
+    padding: 10px;
+    /* border: 1px solid #dc3545 !important; */
+    border-radius: 10px;
+    background-color: white;
+    /* display: inline-block; */
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    /* margin-top:150px; */
+    /* margin-left:350px; */
+    width: 100px;
+    }
+.example_q a{
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+
+
+    .example_c {
+        color: #dc3545 !important;
+        /* text-transform: uppercase; */
+        background:transparent;
+        /* padding: 10px; */
+        border: 1px solid #dc3545 !important;
+        border-radius: 6px;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+        width: 50%;
+        }
+        .black-color {
+            color: black !important;
+    }
+
+
+    black-color:hover {
+        color: black !important;
+}
+
+        .example_c:hover {
+            color: #dc3545 !important;
+            /* text-transform: uppercase; */
+            background:transparent;
+            /* padding: 10px; */
+            /* border: 1px solid #dc3545 !important; */
+            border-radius: 6px;
+            display: inline-block;
+            transition: all 0.3s ease 0s;
+            width: 50%;
+            }
+    .example_d:hover {
+        color: #f4f4f4 !important;
+        border-radius: 50px;
+        border-color: #f4f4f4 !important;
+        transition: all 0.3s ease 0s;
+        }
+
+        .example_dsearch{
+            color: #dc3545 !important;
+            /* text-transform: uppercase; */
+            background:transparent;
+            padding: 10px;
+            border: 1px solid #dc3545 !important;
+            border-radius: 6px;
+            display: inline-block;
+            transition: all 0.3s ease 0s;
+            width: 20%;
+            text-align: center;
+        }
+        .example_dsearch:hover {
+            color: #f4f4f4 !important;
+            border-radius: 50px;
+            border-color: #f4f4f4 !important;
+            transition: all 0.3s ease 0s;
+            }

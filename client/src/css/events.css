@@ -1,0 +1,537 @@
+/*EVENT CSS*/
+
+.icon{
+
+  display: inline-block;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  width: 22px;
+
+  height: 22px;
+
+}
+
+.icon-geoposition{
+
+  background-image: url('//tickets.veamus.com/wp-content/uploads/2018/12/icon-geoposition.png');
+
+}
+
+.icon-calendar{
+
+  background-image: url('//tickets.veamus.com/wp-content/uploads/2018/12/icon-calendar.png');
+
+}
+
+.icon-clock{
+
+  background-image: url('//tickets.veamus.com/wp-content/uploads/2018/12/icon-clock.png');
+
+}
+
+.btn{
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  font-size: 18px;
+
+  padding: 16px 33px;
+
+  color: white;
+
+  border-radius: 4px;
+
+  font-weight: 600;
+
+  transition: box-shadow 0.16s, color 0.16s ease-in-out, background-color 0.16s ease-in-out, transform 0.16s;
+
+}
+
+.btn-blue{
+
+  background-color: rgb(139, 139, 145);
+
+}
+
+.btn-blue:hover{
+
+  background-color: rgb(221, 220, 233);
+
+  position: relative;
+
+}
+
+
+
+.event-page-header{
+
+  background-color: white;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: row;
+
+  border-bottom-right-radius: 4px;
+
+  border-bottom-left-radius: 4px;
+
+  overflow: hidden;
+
+}
+
+.event-page-content__description,
+
+event-page-content__hype,
+
+.event-page-header__poster,
+
+.event-page-header__context{
+
+  width: 50%;
+
+}
+
+.event-page-header__poster{
+
+  position: relative;
+
+  overflow: hidden;
+
+  width: 50%;
+
+  border-right: solid 1px #525252;
+
+}
+
+.event-poster-image{
+
+  backgound-size: cover;
+
+  background-repeat: no-repat;
+
+  background-position: center;
+
+  background-image: url('http://nederlandliving.com/wp-content/uploads/2018/07/campfire-1140x700.jpg');
+
+}
+
+.overlay-gradient-frombottom{
+
+  background: rgba(19,19,19,0.33);
+
+  background: -moz-linear-gradient(top, rgba(19,19,19,0.33) 0%, rgba(19,19,19,1) 100%);
+
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(19,19,19,0.33)), color-stop(100%, rgba(19,19,19,1)));
+
+  background: -webkit-linear-gradient(top, rgba(19,19,19,0.33) 0%, rgba(19,19,19,1) 100%);
+
+  background: -o-linear-gradient(top, rgba(19,19,19,0.33) 0%, rgba(19,19,19,1) 100%);
+
+  background: -ms-linear-gradient(top, rgba(19,19,19,0.33) 0%, rgba(19,19,19,1) 100%);
+
+  background: linear-gradient(to bottom, rgba(19,19,19,0.33) 0%, rgba(19,19,19,1) 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#131313', GradientType=0 );
+
+}
+
+.event-poster-  image-overlay{
+
+  display: flex;
+
+  /* height: 668px; */
+
+}
+
+.event-page-title,
+
+.event-page-cta,
+
+.event-poster-infobar{
+
+  /* box-sizing: border-box; */
+
+  /* padding: 66px; */
+
+}
+
+.event-poster-infobar{
+
+  display: flex;
+  /* height: 500px; */
+  flex-direction: row;
+
+  width: 100%;
+
+  justify-content: space-between;
+
+  align-self: flex-end;
+
+  align-items: center;
+
+}
+
+.event-wherewhen li{
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+}
+
+.event-wherewhen li .icon{
+
+  margin: 2px 10px 2px 0;
+
+}
+
+
+
+.event-page-header__context{
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+}
+
+.event-category-tag{
+
+  font-size: 14px;
+
+  padding: 8px;
+
+  /* border: solid 1px #E2E2E2; */
+
+  text-decoration: none;
+
+  color: #E2E2E2;
+
+  text-transform: uppercase;
+
+}
+
+.event-page-title h1{
+
+  font-family: 'Fira Sans', sans-serif;
+
+  /* font-size: 48px; */
+
+  /* font-weight: 800; */
+
+  /* margin-top: 24px; */
+
+}
+
+.event-page-cta{
+
+  justify-content: space-between;
+
+  font-weight: 400;
+
+  font-size: 24px;
+
+  color: #E2E2E2;
+
+  border-top: solid 1px #525252;
+
+  /* padding-top: 66px; */
+
+  line-height: 1.1em;
+
+}
+
+.event-page-cta__action-bar{
+
+  margin-top: 33px;
+
+}
+
+.data-tag + .data-tag,
+
+.event-page-cta__action-bar .data-tag{
+
+  margin-left: 8px;
+
+}
+
+.data-tag{
+
+  border: solid 2px white;
+
+  border-radius: 4px;
+
+  font-size: 18px;
+
+  font-weight: 300;
+
+  padding: 6px 8px;
+
+  text-transform: uppercase;
+
+}
+
+.data-tag-white{
+
+  /* border: solid 2px white; */
+
+  color: white;
+
+}
+
+.data-tag-gray{
+
+  border: solid 2px gray;
+
+  color: gray;
+
+}
+
+.data-tag-blue{
+
+  border: solid 2px #2E20FF;
+
+  color: #2E20FF;
+
+}
+
+.event-page-content{
+
+  display: flex;
+
+  box-sizing: border-box;
+
+}
+
+.event-page-content__description,
+
+.event-page-content__hype{
+
+  box-sizing: border-box;
+
+  padding: 33px;
+
+  width: 100%;
+
+}
+
+.event-page-countdown{
+
+  width: 100%;
+
+}
+
+.event-page-content__description{    
+
+  box-sizing: border-box;
+
+  border-right: solid 1px #E1E1E1;
+
+  font-size: 18px;
+
+  line-height: 1.4em;
+
+}
+
+.event-page-description{
+
+  /* padding: 33px; */
+
+  /* border: solid 1px #E1E1E1; */
+
+  box-sizing: border-box;
+
+}
+
+.event-page-countdown{
+
+  box-sizing: border-box;
+
+  border: solid 4px lightblue;
+
+  padding: 33px 66px;
+
+}
+
+.event-countdown{
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+
+}
+
+.countdown-number{
+
+  font-size: 32px;
+
+}
+
+.event-countdown__time{
+
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 0 16px;
+
+  text-align: center;
+
+}
+
+.event-page-events-recommended{
+
+  box-sizing: border-box;
+
+  padding-top: 66px;
+
+  border-top: solid 1px #E1E1E1;
+
+}
+
+.event-page-events-recommended h2{
+
+  font-weight: bold;
+
+  font-size: 33px;
+
+  margin-bottom: 33px;
+
+  color: #AEAEAE;
+
+  text-align: center;
+
+}
+
+.events-list{
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+}
+
+.events-list__card-wrap{
+
+  width: 33%;
+
+  padding: 0 10px;
+
+  box-sizing: border-box;
+
+}
+
+.event-card{
+
+  border: solid 1px #E1E1E1;
+
+  border-radius: 5px;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  background-color: white;
+
+  transition: transform 0.12s ease-in-out, box-shadow 0.12s ease-in-out;
+
+}
+
+.event-card:hover{
+
+  box-shadow: 0 16px 66px rgba(0,0,0,0.33);
+
+  transform: scale(1.02);
+
+  
+
+}
+
+.event-card__poster{
+
+  background-image: url('https://www.reserveamerica.com/webphotos/racms/articles/images/14729713-a68d-416f-a4ea-dcfcb4c97cb0_image2_fire-main.jpg');
+
+  background-position: center;
+
+  background-size: cover;
+
+}
+
+.event-card-poster-overlay{
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 276px;
+
+  color: white;
+
+  justify-content: flex-end;
+
+}
+
+.event-card-poster-overlay,
+
+.event-card__description,
+
+.event-card__details{
+
+  box-sizing: border-box;
+
+  padding: 26px;
+
+}
+
+.event-card__details{
+
+  padding-top: 16px;
+
+}
+
+.event-card__description h3{
+
+  font-size: 22px;
+
+  font-weight: bold;
+
+  margin-bottom: 12px;
+
+  line-height: 26px;
+
+}
+
+.event-card__description{
+
+  padding-bottom: 0;
+
+  line-height: 20px;
+
+}
+
+.event-card__details{
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: flex-end;
+
+}

@@ -1,0 +1,116 @@
+/* body {
+    margin: 0 auto;
+    padding: 10%;
+    background: #eae6d1;
+    font-family: 'Quattrocento Sans', sans-serif;
+  } */
+  .profile-card {
+    margin: 16px 16px;
+    display: inline-block;
+    width: 256px;
+    height: auto;
+    border-radius: 4px;
+    background: #eee;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  .profile-card .profile-image {
+    width: 160px;
+    height: 160px;
+    box-sizing: border-box;
+    padding: 4px;
+    position: relative;
+    top: -40px;
+    left: 44px;
+    background: #eee;
+    border-radius: 100%;
+    box-shadow: 0 -2px 6px -3px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  .profile-card .profile-image-none {
+    color: #8cbab7;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-size: 160px;
+    position: relative;
+    top: -40px;
+    left: 44px;
+    background: #eee;
+    border-radius: 100%;
+    box-shadow: 0 -2px 6px -3px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  .profile-card .profile-name {
+    width: 256px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    text-align: center;
+    color: #2b3f60;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+    top: -64px;
+  }
+  .profile-card .profile-description {
+    width: 256px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    color: #748aa4;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+    top: -72px;
+    margin-bottom: -48px;
+  }
+  
+  
+  /* <div class="profile-card">
+  <i class="profile-image-none material-icons">account_circle</i>
+  <h1 class="profile-name">
+    abcdefg
+  </h1>
+  <p class="profile-description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate consectetur facilisis. In lectus felis, feugiat dignissim dictum ut, tristique id erat. Nunc aliquam elit eros, viverra hendrerit nisl convallis eu.
+  </p>
+</div>
+<div class="profile-card">
+  <img class="profile-image" src="https://i.imgur.com/tq1CpHn.png" />
+  <h1 class="profile-name">
+    abcdefg
+  </h1>
+  <p class="profile-description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate consectetur facilisis. In lectus felis, feugiat dignissim dictum ut, tristique id erat. Nunc aliquam elit eros, viverra hendrerit nisl convallis eu.
+  </p>
+</div>
+<div class="profile-card">
+  <i class="profile-image-none material-icons">account_circle</i>
+  <h1 class="profile-name">
+    abcdefg
+  </h1>
+  <p class="profile-description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam elit eros, viverra hendrerit nisl convallis eu.
+  </p>
+</div>
+<div class="profile-card">
+  <i class="profile-image-none material-icons">account_circle</i>
+  <h1 class="profile-name">
+    abcdefg
+  </h1>
+  <p class="profile-description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  </p>
+</div>
+<div class="profile-card">
+  <i class="profile-image-none material-icons">account_circle</i>
+  <h1 class="profile-name">
+    abcdefg
+  </h1>
+  <p class="profile-description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate consectetur facilisis. In lectus felis, feugiat dignissim dictum ut, tristique id erat. Nunc aliquam elit eros, viverra hendrerit nisl convallis eu.
+  </p>
+</div>
+<div class="profile-card">
+  <i class="profile-image-none material-icons">account_circle</i>
+  <h1 class="profile-name">
+    abcdefg
+  </h1>
+  <p class="profile-description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate consectetur facilisis. In lectus felis, feugiat dignissim dictum ut, tristique id erat.
+  </p>
+</div> */

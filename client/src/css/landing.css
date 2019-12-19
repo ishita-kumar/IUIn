@@ -1,0 +1,193 @@
+/* Landing Page */
+.landing {
+    position: relative;
+    background: url('../img/showcase.png') no-repeat center center/cover;
+    height: 100vh;
+
+  }
+
+  
+  
+  .landing-inner {
+    color: #fff;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .dark-overlay {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } 
+  @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+  @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+  
+  /* Override UGG site */
+  #main {width: 100%; padding:0;}
+  .content-asset p {margin:0 auto;}
+  .breadcrumb {display:none;}
+  
+  /* Helpers */
+  /**************************/
+  .margin-top-10 {padding-top:10px;}
+  .margin-bot-10 {padding-bottom:10px;}
+  
+  /* Typography */
+  /**************************/
+  #parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+  #parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+  #parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+  #parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+  .first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+  
+  .sc {color: #3b8595;}
+  .ny {color: #3d3c3a;}
+  .atw {color: #c48660;}
+  
+  /* Section - Title */
+  /**************************/
+  #parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+  #parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+  
+  /* Section - Block */
+  /**************************/
+  #parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+  #parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+  #parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+  
+  /* Section - Parallax */
+  /**************************/
+  #parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%;background-image: url("../img/first_cover.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+  #parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/formspic.jpg");background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+  #parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/loggin.png");background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+  
+  /* Extras */
+  /**************************/
+  #parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+  
+  /* Media Queries */
+  /**************************/
+  @media screen and (max-width: 959px) and (min-width: 768px) {
+    #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+  }
+  @media screen and (max-width: 767px) {
+    #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+    #parallax-world-of-ugg h2 {font-size:30px;}
+    #parallax-world-of-ugg .block {padding: 30px;}
+    #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+  }
+  @media screen and (max-width: 479px) {
+    #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+  }
+  /*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+
+.body1 {
+  background: #febbbb;
+  background: linear-gradient(135deg, #febbbb 0%, #fe9090 45%, #ff5c5c 100%);
+  font-size: 10px;
+  padding: 2em;
+}
+.full-screen1 {
+  height: 100vw;
+  position: relative;
+}
+.title1 {
+  text-align: center;
+  font-weight: 100;
+}
+.divider1 {
+  border-bottom: 1px solid black;
+}
+.cards1 {
+  background: lightblue;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 38em;
+  padding: 1.5em;
+  position: relative;
+  transition: height 0.4s, box-shadow 0.5s;
+}
+.cards1:hover {
+  box-shadow: 0 0 2em #999;
+  height: 38em;
+  transition: height 0.3s ease, box-shadow 0.5s ease;
+}
+.cards1:hover .divider {
+  opacity: 0.5;
+}
+/* .cards1:hover .info {
+  transition: top 0.5s ease, opacity 1s ease;
+  visibility: visible;
+  top: 1%;
+  opacity: 1;
+} */
+/* .cards1:hover .icon {
+  font-size: 2em;
+  left: 45%;
+  transition: font-size 0.3s, left 0.3s;
+} */
+.cards1 .info {
+  position: relative;
+  visibility: hidden;
+  top: -50%;
+  opacity: 0;
+}
+.cards1 .icon {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  padding: 0em;
+  position: relative;
+  left: 43%;
+  top: 0em;
+  transition: font-size 0.3s ease, left 0.3s ease;
+}
+.cards1 .title {
+  color: black;
+  text-align: center;
+  font-weight: 300;
+}
+.cards1 .lead {
+  color: black;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+  hyphens: auto;
+}

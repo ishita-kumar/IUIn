@@ -1,0 +1,250 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+} */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edeff0;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 100%;
+}
+
+header {
+  padding: 1em 20%;
+  text-align: center;
+  background-color: #45739c;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+}
+header p {
+  margin-top: 12px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.container2 {
+  width: 660px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.container2:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+ul.cells {
+  clear: both;
+  margin: 0 -15px;
+}
+ul.cells > li {
+  margin-bottom: 30px;
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.cell {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  background-color: #fff;
+  height: 220px;
+  padding: 30px;
+  position: relative;
+  float: left;
+  width: 70%;
+}
+.content h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 10px;
+}
+.content p {
+  color: #bfc2ce;
+  margin-bottom: 5px;
+}
+.content p strong {
+  font-weight: bold;
+}
+.content h3 {
+  color: #bfc2ce;
+}
+.content > ul.tags {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  overflow: hidden;
+  padding-right: 30px;
+  white-space: nowrap;
+}
+.content > ul.tags:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  -moz-box-shadow: 0 0 15px 15px #fff;
+  -webkit-box-shadow: 0 0 15px 15px #fff;
+  box-shadow: 0 0 15px 15px #fff;
+}
+.content > ul.tags li {
+  /* display: inline-block; */
+}
+.content > ul.tags li a {
+  margin-right: 10px;
+  display: block;
+  text-decoration: none;
+  color: #a0a5ba;
+  background-color: #dbdde5;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  padding: 8px 12px;
+  position: relative;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+.content > ul.tags li a:before {
+  content: "\2219";
+  color: #7c84a1;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  left: 8px;
+  top: 2px;
+}
+.content > ul.tags li a.new {
+  background-color: #e55b00;
+  color: #fff;
+  padding-left: 12px;
+}
+.content > ul.tags li a.new:before {
+  display: none;
+}
+
+.hero {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  overflow: hidden;
+  float: left;
+  width: 30%;
+  color: #fff;
+  text-decoration: none;
+}
+.hero:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+}
+.hero[data-cat="dashboard"] {
+  background-color: #6c9fb8;
+}
+.hero[data-cat="blog"] {
+  background-color: #ce454f;
+}
+.hero i {
+  font-size: 40px;
+}
+.hero:before {
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 680px) {
+  .container {
+    width: 90%;
+  }
+
+  ul.cells > li {
+    float: none;
+    width: auto;
+  }
+}

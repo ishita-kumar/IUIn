@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style : normal;
+           src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+           src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+    }
+    
+  
+    .container {
+      /* width: 60%; */
+      margin-left
+      
+      : 20px auto;
+      /* padding-bottom: 5px; */
+      /* padding-top: 5px; */
+      /* padding-left: 1px; */
+      /* padding-right: 1px; */
+    }
+    .message-container {
+      background-color: white;
+      /* padding: 0; */
+      /* border: black solid 1px; */
+      -webkit-box-shadow: 0 1px 5px 0 rgba(45,62,80,0.08);
+      /* box-shadow: 0 1px 5px 0 rgba(45,62,80,0.08); */
+      border-radius: 16px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+    .status-bar {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 0;
+      flex-shrink: 0;
+      /* background-color: #00bda5; */
+      /* background-image: linear-gradient(-303deg,#00bda5 30%,#00a4bd,#00bda5); */
+      color: #fff;
+      border-radius: 3px 3px 0 0;
+      margin-bottom: 20px;
+      padding: 0 24px;
+    }
+    .status-bar h2 {
+      font-size: 22px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+    .status-bar span.status {
+      font-weight: 700;
+      font-style: italic;
+    }
+    .message-header {
+      margin: 24px 96px 0 24px;
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .header-image {
+      padding: 10px 16px 0 0;
+    }
+    .header-image img {
+      border-radius: 50%;
+      height: 40px;
+      object-fit: cover;
+      width: 40px;
+      max-width: none;
+      box-shadow: 0 0 1px 0 #c4c4c4 inset, 0 0 1px 0 #c4c4c4;
+    }
+    .header-info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: #DFE3EB solid 1px;
+      /* padding-bottom: 16px; */
+      width: 100%;
+    }
+    .user-details .user-name {
+      font-size: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #30465c;
+    }
+    .user-details .user-icon {
+      height: 20px;
+      margin: 5px 0 5px 2px;
+      display: inline !important;
+      vertical-align: middle;
+    }
+    .user-details .user-role {
+      color: #747474;
+    }
+    .user-details .user-rank {
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .message-details .option-menu {
+      text-align: right;
+    }
+    .message-details .option-menu:before {
+      content: '\f141';
+      font-family: "FontAwesome";
+      color: #33475b;
+    }
+    .message-details .message-date {
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .message-content {
+      /* padding: 24px 88px 46px 75px; */
+      margin-bottom: 10px;
+    }
+    
+    @media screen and (max-width: 768px){
+      .header-info {
+        flex-direction: column;
+      }
+      .message-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+    }

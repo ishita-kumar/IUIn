@@ -1,0 +1,209 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    /*background-color: #EEEEEE;*/
+    /* color: #444;
+    font-family: "Helvetica", sans-serif;
+    height: 100%;
+    width: 100%;
+  } */
+  
+  
+  .product{
+    /* background-        color: #eee; */
+    border-bottom: 1px solid #ddd;
+    clear: both;
+    padding: 0px 10% 70px 10%;
+  }
+  
+  .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .col-1-2{
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  
+  .product-image{
+    /*border: 1px dotted #aaa;*/
+  }
+  
+  .product-image .bg{
+    background-image: url('https://media.istockphoto.com/photos/bonfire-with-sparks-flying-around-picture-id543677266?k=6&m=543677266&s=612x612&w=0&h=ubXUmqPbh5ns6m1-Z4s2mcLPxy4Tt1lUCGgSFs3ihD4=');
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    min-height: 450px;
+    margin-top: 5rem;
+  }
+  
+  .product-image .indicator{
+    text-align:center;
+  }
+  
+  .product-image .dot{
+    background-color: #aaa;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    width: 5px;
+    height: 5px;
+    transition: all 400ms ease;
+  }
+  
+  .dot:hover{
+    background-color: #444;
+  }
+  
+  .product-info{
+    padding: 0px 8%;
+  }
+  
+  .product-info h1{
+    margin-bottom: 5px;
+    margin-top: 5rem;
+  }
+  
+  .product-info h2{
+    margin-bottom: 50px;
+    margin-top: 5rem;
+  }
+  
+  .product-info .select-dropdown{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    width: auto;
+    float: left;
+  }
+  
+  .product-info select{
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 12px 92px 12px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    color: #aaa;
+    font-size: 12px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+  
+  select:active, select:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .select-dropdown:after {
+      content: " ";
+    cursor: pointer;
+      position: absolute;
+      top: 30%;
+    right: 10%;
+      width: 0; 
+      height: 0; 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #aaa;
+    }
+  
+  .product-info a.add-btn{
+    background-color: #444;
+    border-radius: 2px;
+    color: #eee;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 400ms ease;
+  }
+  
+  a.add-btn:hover{
+    background-color: #555;
+  }
+  
+  .product-info p{
+    margin-bottom: 30px;
+  }
+  
+  .product-info p a{
+    border-bottom: 1px dotted #444;
+    color: #444;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 400ms ease;
+  }
+  
+  .product-info p a:hover{
+    opacity: .7;
+  }
+  
+  .product-info ul{
+    font-size: 12px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  
+  .product-info li{
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
+  
+  .product-info li::before{
+    content:"\2022";
+    margin-right: 20px;
+  }
+  
+  
+  .product-info a.share-link{
+    color: #aaa;
+    font-size: 11px;
+    margin-right: 30px;
+    text-decoration: none;
+  }
+  
+  .product-info a.share-link:hover{
+    border-bottom: 2px solid #aaa;
+  }
+  
+  footer{
+      background-color: #212121;
+      clear: both;
+      width: 100%;
+      padding: 20px 10% 10px 10%;
+      text-align: center;
+      vertical-align: middle;
+  }
+  
+  footer img{
+      display: inline-block;
+      height: 20px;
+      width: auto;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      vertical-align: middle;
+  }
+  
+  footer h3{
+    color: #bbb;
+    font-size: 12px;
+    font-weight: 700;
+      display: inline-block;
+      height: 20px;
+    letter-spacing: .8px;
+      margin-bottom: 0px;
+    text-transform: uppercase;
+      vertical-align: middle;
+  }
