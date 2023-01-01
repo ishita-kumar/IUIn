@@ -33,7 +33,7 @@
     "browserslist": "^4.7.3",
     "caniuse-lite": "^1.0.30001011",
     "chart.js": "^2.9.3",
-    "config": "^3.2.4",
+    "config": "^3.3.8",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^6.2.0",
